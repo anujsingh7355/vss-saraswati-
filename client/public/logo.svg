@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="96" fill="white" stroke="url(#saffronGrad)" stroke-width="5" />
+  <circle cx="100" cy="100" r="88" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-dasharray="3 3" />
+  
+  <!-- Inner Background Circle -->
+  <circle cx="100" cy="100" r="82" fill="#FFFBEB" />
+
+  <!-- Sun Rays of Knowledge -->
+  <g stroke="#FCD34D" stroke-width="2" opacity="0.6">
+    <line x1="100" y1="26" x2="100" y2="34" />
+    <line x1="100" y1="166" x2="100" y2="174" />
+    <line x1="26" y1="100" x2="34" y2="100" />
+    <line x1="166" y1="100" x2="174" y2="100" />
+    <line x1="48" y1="48" x2="54" y2="54" />
+    <line x1="152" y1="48" x2="146" y2="54" />
+    <line x1="48" y1="152" x2="54" y2="146" />
+    <line x1="152" y1="152" x2="146" y2="146" />
+  </g>
+
+  <!-- Rising Sun Motif -->
+  <circle cx="100" cy="78" r="24" fill="#FDE68A" opacity="0.5" />
+  <circle cx="100" cy="78" r="16" fill="url(#saffronGrad)" />
+
+  <!-- Sacred Flame / Deepam (Light of Wisdom) -->
+  <path d="M 100 42 C 94 56, 88 66, 88 78 C 88 88, 93 94, 100 94 C 107 94, 112 88, 112 78 C 112 66, 106 56, 100 42 Z" fill="url(#goldGrad)" />
+  <path d="M 100 52 C 97 62, 93 68, 93 76 C 93 82, 96 86, 100 86 C 104 86, 107 82, 107 76 C 107 68, 103 62, 100 52 Z" fill="#FEF08A" />
+
+  <!-- Brass Diya Lamp Base -->
+  <path d="M 78 88 Q 100 102 122 88 L 118 96 Q 100 106 82 96 Z" fill="url(#goldGrad)" />
+
+  <!-- Open Book of Knowledge -->
+  <g transform="translate(100, 118)">
+    <!-- Left page -->
+    <path d="M 0 4 Q -22 -8 -44 -4 L -44 18 Q -22 14 0 26 Z" fill="#FFFFFF" stroke="#92400E" stroke-width="1.8" />
+    <!-- Right page -->
+    <path d="M 0 4 Q 22 -8 44 -4 L 44 18 Q 22 14 0 26 Z" fill="#FFFFFF" stroke="#92400E" stroke-width="1.8" />
+    <!-- Book spine / center -->
+    <path d="M 0 4 L 0 26" stroke="#92400E" stroke-width="2.5" />
+    <!-- Page text lines -->
+    <line x1="-36" y1="3" x2="-8" y2="7" stroke="#CBD5E1" stroke-width="1.5" />
+    <line x1="-36" y1="8" x2="-8" y2="12" stroke="#CBD5E1" stroke-width="1.5" />
+    <line x1="8" y1="7" x2="36" y2="3" stroke="#CBD5E1" stroke-width="1.5" />
+    <line x1="8" y1="12" x2="36" y2="8" stroke="#CBD5E1" stroke-width="1.5" />
+  </g>
+
+  <!-- Lotus Petals at Bottom -->
+  <path d="M 100 138 C 90 132, 70 134, 60 144 C 74 148, 90 146, 100 138 Z" fill="#F59E0B" opacity="0.85" />
+  <path d="M 100 138 C 110 132, 130 134, 140 144 C 126 148, 110 146, 100 138 Z" fill="#F59E0B" opacity="0.85" />
+  <path d="M 100 134 C 95 127, 85 130, 80 140 C 90 142, 97 138, 100 134 Z" fill="#D97706" />
+  <path d="M 100 134 C 105 127, 115 130, 120 140 C 110 142, 103 138, 100 134 Z" fill="#D97706" />
+
+  <!-- Ribbon Banner at Bottom with Sanskrit Motto -->
+  <path d="M 40 162 L 160 162 L 152 176 L 100 178 L 48 176 Z" fill="url(#navyGrad)" />
+  <text x="100" y="172" font-family="'Noto Sans Devanagari', sans-serif" font-size="7.5" font-weight="bold" fill="#FEF08A" text-anchor="middle">
+    सा विद्या या विमुक्तये
+  </text>
+  
+  <!-- Upper Text Arc: VSS SARASWATI VIDYA MANDIR -->
+  <path id="textArcTop" d="M 30 100 A 70 70 0 0 1 170 100" fill="none" />
+  <text font-family="'Noto Sans Devanagari', 'Poppins', sans-serif" font-size="7.5" font-weight="bold" fill="#1E3A8A">
+    <textPath href="#textArcTop" startOffset="50%" text-anchor="middle">
+      वि.सं.स्मा. सरस्वती विद्या मन्दिर • अरखा
+    </textPath>
+  </text>
+</svg>
